@@ -1,11 +1,11 @@
-package com.amazon.ata.streams.classroom.product;
+package com.amazon.ata.streams.product;
 
-import com.amazon.ata.streams.classroom.product.types.PriceRangeOption;
-import com.amazon.ata.streams.classroom.product.types.PrimeOption;
-import com.amazon.ata.streams.classroom.product.types.ProductImagesV2;
-import com.amazon.ata.streams.classroom.product.types.ProductV2;
-import com.amazon.ata.streams.classroom.product.types.ShippingProgramEnum;
-import com.amazon.ata.streams.classroom.product.types.SortByEnum;
+import com.amazon.ata.streams.product.types.PriceRangeOption;
+import com.amazon.ata.streams.product.types.PrimeOption;
+import com.amazon.ata.streams.product.types.ProductImagesV2;
+import com.amazon.ata.streams.product.types.ProductV2;
+import com.amazon.ata.streams.product.types.ShippingProgramEnum;
+import com.amazon.ata.streams.product.types.SortByEnum;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -15,10 +15,10 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 
-import static com.amazon.ata.streams.classroom.product.types.SortByEnum.PRICE_HIGH_TO_LOW;
-import static com.amazon.ata.streams.classroom.product.types.SortByEnum.PRICE_LOW_TO_HIGH;
-import static com.amazon.ata.streams.classroom.product.types.SortByEnum.REWARD_HIGH_TO_LOW;
-import static com.amazon.ata.streams.classroom.product.types.SortByEnum.REWARD_LOW_TO_HIGH;
+import static com.amazon.ata.streams.product.types.SortByEnum.PRICE_HIGH_TO_LOW;
+import static com.amazon.ata.streams.product.types.SortByEnum.PRICE_LOW_TO_HIGH;
+import static com.amazon.ata.streams.product.types.SortByEnum.REWARD_HIGH_TO_LOW;
+import static com.amazon.ata.streams.product.types.SortByEnum.REWARD_LOW_TO_HIGH;
 
 public class ProductPage {
 

@@ -1,10 +1,5 @@
 # Product Page
 
-**branch name:** streams-classroom-productpage
-
-**RDE workflows:**
-- `streams-classroom-productpage`
-
 ## Introduction
 
 Let's play some Code Golf!
@@ -19,7 +14,7 @@ and converted them to the "imperative" style that you've already explored.
 They all relate to information you find on a product page: buying options,
 the main images, extra "look" images, and related products with price filter,
 shipping filter, and sort method.
-You can see them in the `classroom/streams/product/ProductPage.java` class.
+You can see them in the `streams/product/ProductPage.java` class.
 
 The supporting classes are in `product/types`. You *will not* need to use any methods
 from the supporting classes that aren't already in `ProductPage.java`. You won't need
@@ -101,13 +96,13 @@ a flat `Stream<String>`:
 ```
 
 ## Phase 0: Tee Up
-Run the `streams-classroom-productpage` RDE workflow to verify everything builds and passes tests.
+Run the `ProductPageTest` to verify everything builds and passes tests.
 
 ## Phase 1: The drive
 
 Convert the `getFirstBuyingOption()` method in `ProductPage` to use streams.
 
-After converting the method, run the `streams-classroom-productpage` workflow or the `ProductPageTest` test class
+After converting the method, run the `ProductPageTest` test class
 to ensure that you haven't missed any functionality. 
 
 ## Phase 2: The approach
@@ -116,14 +111,14 @@ Convert the following methods in `ProductPage` to use streams:
 * `extractMainImageUrl()`
 * `extractLookImageUrl()`
 
-After converting the method, run the `streams-classroom-productpage` workflow or the `ProductPageTest` test class
+After converting the method, run the `ProductPageTest` test class
 to ensure that you haven't missed any functionality.
 
 ## Phase 3: The putt
 
 Convert the `getSimilarProducts()` methods in `ProductPage` to use streams.
 
-After converting the method, run the `streams-classroom-productpage` workflow or the `ProductPageTest` test class
+After converting the method, run the `ProductPageTest` test class
 to ensure that you haven't missed any functionality.
 
 ## Phase 4: Tally it up

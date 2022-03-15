@@ -1,4 +1,4 @@
-package com.amazon.ata.streams.classroom.product.types;
+package com.amazon.ata.streams.product.types;
 
 import java.math.BigDecimal;
 import java.util.List;

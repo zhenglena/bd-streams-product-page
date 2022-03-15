@@ -1,4 +1,4 @@
-package com.amazon.ata.streams.classroom.product.types;
+package com.amazon.ata.streams.product.types;
 
 /*
  * Copyright 2015 Amazon.com

@@ -1,4 +1,4 @@
-package com.amazon.ata.streams.classroom.product.types;
+package com.amazon.ata.streams.product.types;
 
 import java.util.Objects;
 import java.util.Optional;

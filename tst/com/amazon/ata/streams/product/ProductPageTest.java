@@ -1,12 +1,12 @@
-package com.amazon.ata.streams.classroom.product;
+package com.amazon.ata.streams.product;
 
-import com.amazon.ata.streams.classroom.product.types.PriceRangeOption;
-import com.amazon.ata.streams.classroom.product.types.PrimeOption;
-import com.amazon.ata.streams.classroom.product.types.ProductImagesV2;
-import com.amazon.ata.streams.classroom.product.types.ProductV2;
-import com.amazon.ata.streams.classroom.product.types.ShippingProgramEnum;
-import com.amazon.ata.streams.classroom.product.types.SortByEnum;
-import com.amazon.ata.streams.classroom.product.types.StyledMedia;
+import com.amazon.ata.streams.product.types.PriceRangeOption;
+import com.amazon.ata.streams.product.types.PrimeOption;
+import com.amazon.ata.streams.product.types.ProductImagesV2;
+import com.amazon.ata.streams.product.types.ProductV2;
+import com.amazon.ata.streams.product.types.ShippingProgramEnum;
+import com.amazon.ata.streams.product.types.SortByEnum;
+import com.amazon.ata.streams.product.types.StyledMedia;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -18,13 +18,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-import static com.amazon.ata.streams.classroom.product.types.ShippingProgramEnum.ADDON;
-import static com.amazon.ata.streams.classroom.product.types.ShippingProgramEnum.FRESH;
-import static com.amazon.ata.streams.classroom.product.types.ShippingProgramEnum.NONPRIME;
-import static com.amazon.ata.streams.classroom.product.types.ShippingProgramEnum.PANTRY;
-import static com.amazon.ata.streams.classroom.product.types.ShippingProgramEnum.PRIME;
-import static com.amazon.ata.streams.classroom.product.types.ShippingProgramEnum.PRIMENOW;
-import static com.amazon.ata.streams.classroom.product.types.ShippingProgramEnum.UNKNOWN;
+import static com.amazon.ata.streams.product.types.ShippingProgramEnum.ADDON;
+import static com.amazon.ata.streams.product.types.ShippingProgramEnum.FRESH;
+import static com.amazon.ata.streams.product.types.ShippingProgramEnum.NONPRIME;
+import static com.amazon.ata.streams.product.types.ShippingProgramEnum.PANTRY;
+import static com.amazon.ata.streams.product.types.ShippingProgramEnum.PRIME;
+import static com.amazon.ata.streams.product.types.ShippingProgramEnum.PRIMENOW;
+import static com.amazon.ata.streams.product.types.ShippingProgramEnum.UNKNOWN;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

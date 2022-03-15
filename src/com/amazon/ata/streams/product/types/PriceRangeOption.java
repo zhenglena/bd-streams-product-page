@@ -1,4 +1,4 @@
-package com.amazon.ata.streams.classroom.product.types;
+package com.amazon.ata.streams.product.types;
 
 import com.google.common.collect.ImmutableMap;
 import org.apache.commons.lang3.StringUtils;
